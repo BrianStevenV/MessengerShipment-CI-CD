@@ -1,7 +1,7 @@
 package com.integrador.shipment.Controller;
 
 import com.integrador.shipment.DTO.Shipment.*;
-import com.integrador.shipment.Exception.EmployeeNotFoundException;
+import com.integrador.shipment.Exception.EmployeeEx.EmployeeNotFoundException;
 import com.integrador.shipment.Module.StateShipment;
 import com.integrador.shipment.Service.ShipmentService;
 import io.swagger.annotations.*;

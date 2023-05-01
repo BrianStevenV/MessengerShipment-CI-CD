@@ -17,7 +17,6 @@ public class ShipmentDTO {
     private String destinationDirection;
     private String namePersonReceiver;
     private String phonePersonReceiver;
-    //private String valueShipment;
     private Double valueShipment;
     private Double weight;
 
