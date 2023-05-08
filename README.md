@@ -28,6 +28,7 @@ The project was built in:
 [POST] Create: Register a shipment in the database.
 This service need a Client registered in the Database and input a Weight about package.
 RequestBody:
+```JSON
 {
         "dni": 123,
         "originCity":"Neiva",
@@ -38,18 +39,27 @@ RequestBody:
         "valueShipment":10000,
         "weight":3
 }
+```
 
 [GET] Get Shipment: A Client can consult their information in the database.
-Param: The param need a client registered in the database: {"dni":123}
+Param: The param need a client registered in the database: 
+```JSON
+{"dni":123}
+```
 
 [PUT] Update: An Employee can update the state of shipmnet.
-Param: The param need an Employee registered in the database: {"dni":789}
+Param: The param need an Employee registered in the database: 
+```JSON
+{"dni":789}
+```
 RequestBody:
+```JSON
 {
     "numberGuide":"XLA3478S",
      "stateShipment": "RECEIVED",
      "dniEmployee":"789"
 }
+```
 
 [GET] Get Shipment filtered by State: You can search for shipments that are in a certain state.
 Param: The param need the number guide of Shipment and DNI Employee.
