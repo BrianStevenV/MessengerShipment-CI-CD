@@ -54,5 +54,6 @@ RequestBody:
 [GET] Get Shipment filtered by State: You can search for shipments that are in a certain state.
 Param: The param need the number guide of Shipment and DNI Employee.
 
-![shipmentmsservice](https://user-images.githubusercontent.com/119947948/234174721-0bda9048-761f-4840-a2c6-f9037431f655.png)
+
+![ShipmentMessengerService](https://user-images.githubusercontent.com/119947948/236729117-1787c783-df5d-453d-a1b7-90f78879dddf.jpg)
 
