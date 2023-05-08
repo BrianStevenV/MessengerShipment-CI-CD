@@ -14,14 +14,21 @@ and shipment.
 #Technologies
 The project was built in: 
 
--Java
--SpringBoot
--SpringJPA
--SpringSecurity
--MySQL
--JUnit
--Swagger
--CI/CD
+- Java
+
+- SpringBoot
+
+- SpringJPA
+
+- SpringSecurity
+
+- MySQL
+
+- JUnit
+
+- Swagger
+
+- CI/CD
 
 # Funcionalities
 
